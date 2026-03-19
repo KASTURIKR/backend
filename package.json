@@ -4,13 +4,19 @@
   "description": "a backend",
   "keywords": [
     "js",
-    "backend"         
+    "backend"
   ],
   "license": "ISC",
   "author": "Honey",
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon src/index.js"
+    "dev": "nodemon src/index.js"
+  },
+  "devDependencies": {
+    "prettier": "^3.8.1"
+  },
+  "dependencies": {
+    "nodemon": "^3.1.14"
   }
 }
